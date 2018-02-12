@@ -7,7 +7,9 @@
         xmlns:models="clr-namespace:BooksSample.Models"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <!-- XML alias to .NET namespace - xmlns:... -->
     <Window.Resources>
+        <!-- use the XML alias to create a .NET object -->
         <models:Book x:Key="myBook" Title="Professional C# 7" Publisher="Wrox Press" Isbn="3747834783" />
     </Window.Resources>
     <Grid>
