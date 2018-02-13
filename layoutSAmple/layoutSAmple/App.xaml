@@ -1,0 +1,27 @@
+﻿<Application x:Class="layoutSAmple.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:layoutSAmple"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries >
+                <ResourceDictionary Source="Dictionary1.xaml" />
+                <ResourceDictionary >
+                    <Style x:Key="TB" TargetType="TextBlock">
+                        <Setter Property="Foreground" Value="Gray" />
+                        <Setter Property="Background" Value="YellowGreen" />
+                        <Setter Property="FontSize" Value="24" />
+                    </Style>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>    
+        </ResourceDictionary>
+        
+        
+        
+
+
+    </Application.Resources>
+
+   
+</Application>
